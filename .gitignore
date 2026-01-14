@@ -53,6 +53,7 @@ dmypy.json
 data/
 models/
 results/
+demo_results/
 cache/
 
 # OS
