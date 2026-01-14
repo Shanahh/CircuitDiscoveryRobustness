@@ -1,0 +1,16 @@
+model_id: "gpt2-small"
+model_commit: null
+task: "tracr"
+algorithm: "eap"
+seed: 123
+batch_size: 4
+sequence_length: 256
+target_nodes:
+  - "transformer.h.0"
+  - "transformer.h.1"
+cache_activations: true
+cache_gradients: false
+output_dir: "results"
+metadata:
+  description: "TRACR task with EAP algorithm"
+  dataset: "tracr_dataset"

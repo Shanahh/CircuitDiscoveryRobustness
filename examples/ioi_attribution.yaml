@@ -1,0 +1,14 @@
+model_id: "gpt2"
+model_commit: null
+task: "ioi"
+algorithm: "attribution_patching"
+seed: 42
+batch_size: 8
+sequence_length: 128
+target_nodes: []
+cache_activations: true
+cache_gradients: false
+output_dir: "results"
+metadata:
+  description: "Indirect Object Identification task with attribution patching"
+  dataset: "ioi_dataset"

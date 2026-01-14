@@ -1,0 +1,14 @@
+model_id: "gpt2"
+model_commit: null
+task: "greaterthan"
+algorithm: "acdc"
+seed: 42
+batch_size: 16
+sequence_length: 64
+target_nodes: []
+cache_activations: true
+cache_gradients: true
+output_dir: "results"
+metadata:
+  description: "Greater-than task with ACDC algorithm"
+  dataset: "greaterthan_dataset"
